@@ -1,0 +1,374 @@
+.frame {
+  background-color: #393939;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #393939;
+  width: 1440px;
+  height: 2569px;
+  position: relative;
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  height: 27px;
+  top: 37px;
+  left: 47px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  color: #627468;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.frame .div-2 {
+  gap: 79px;
+  padding: 28px 82px;
+  position: absolute;
+  top: 10px;
+  left: 715px;
+  background-color: #393939;
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.frame .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-3 {
+  position: absolute;
+  height: 27px;
+  top: 249px;
+  left: 156px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  color: #627468;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.frame .flexcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 15px;
+  position: absolute;
+  width: 684px;
+  height: 60px;
+  top: 290px;
+  left: 156px;
+}
+
+.frame .text {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 70;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.frame .span {
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing:0 ;
+  line-height: 30px;
+}
+
+.frame .saya-merupakan {
+  position: absolute;
+  width: 663px;
+  height: 158px;
+  top: 370px;
+  left: 156px;
+  font-family: "Inter-ExtraLight Italic", Helvetica;
+  font-weight: 200;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.frame .overlap {
+  position: absolute;
+  width: 309px;
+  height: 79px;
+  top: 605px;
+  left: 156px;
+}
+
+.frame .rectangle {
+  position: absolute;
+  width: 151px;
+  height: 63px;
+  top: 15px;
+  left: 0;
+  background-color: #627468;
+}
+
+.frame .img {
+  position: absolute;
+  width: 37px;
+  height: 33px;
+  top: 28px;
+  left: 13px;
+}
+
+.frame .text-wrapper-4 {
+  position: absolute;
+  width: 247px;
+  height: 79px;
+  top: 23px;
+  left: 62px;
+  font-family: "Inter-ExtraLight Italic", Helvetica;
+  font-weight: 200;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.frame .icon {
+  position: absolute;
+  width: 39px;
+  height: 39px;
+  top: 28px;
+  left: 181px;
+}
+
+.frame .icon-2 {
+  top: 28px;
+  left: 238px;
+  position: absolute;
+  width: 39px;
+  height: 39px;
+}
+
+.frame .aboutme {
+  display: inline-flex;
+  align-items: center;
+  gap: 89px;
+  padding: 96px 0px;
+  position: absolute;
+  top: 965px;
+  left: 154px;
+}
+
+.frame .about {
+  position: relative;
+  width: 510px;
+  height: 513px;
+}
+
+.frame .overlap-group {
+  position: relative;
+  height: 513px;
+}
+
+.frame .rectangle-2 {
+  position: absolute;
+  width: 475px;
+  height: 502px;
+  top: 11px;
+  left: 0;
+  border-radius: 24px;
+  border: 16px solid;
+  border-color: #627468;
+  transform: rotate(180deg);
+}
+
+.frame .rectangle-3 {
+  position: absolute;
+  width: 475px;
+  height: 475px;
+  top: 0;
+  left: 35px;
+  object-fit: cover;
+}
+
+.frame .div-3 {
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.frame .about-me {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Lexend Deca-Bold", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 42px;
+  letter-spacing: 0;
+  line-height: 64px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-5 {
+  color: #f3f4f6;
+}
+
+.frame .text-wrapper-6 {
+  color: #627468;
+}
+
+.frame .div-4 {
+  flex-direction: column;
+  height: 426px;
+  gap: 40px;
+  position: relative;
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.frame .halo-nama-saya-dian-wrapper {
+  flex-direction: column;
+  gap: 18px;
+  position: relative;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.frame .halo-nama-saya-dian {
+  position: relative;
+  width: 480px;
+  margin-top: -1px;
+  font-family: "Inter-ExtraLight Italic", Helvetica;
+  font-weight: 200;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.frame .div-wrapper {
+  gap: 10px;
+  padding: 16px 20px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #627468;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.frame .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Arvo-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.frame .overlap-2 {
+  position: absolute;
+  width: 1197px;
+  height: 356px;
+  top: 1705px;
+  left: 46px;
+}
+
+.frame .saya-selalu-terbuka {
+  position: absolute;
+  width: 1076px;
+  height: 184px;
+  top: 172px;
+  left: 121px;
+  font-family: "Inter-ExtraLight Italic", Helvetica;
+  font-weight: 200;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.frame .frame-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 89px;
+  padding: 96px 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.frame .div-5 {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .contact-me {
+  position: absolute;
+  top: 111px;
+  left: 121px;
+  font-family: "Lexend Deca-Bold", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 42px;
+  line-height: 64px;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.frame .rectangle-4 {
+  position: absolute;
+  width: 397px;
+  height: 397px;
+  top: 245px;
+  left: 897px;
+  object-fit: cover;
+}
+
+.frame .icon-3 {
+  top: 2073px;
+  left: 167px;
+  position: absolute;
+  width: 39px;
+  height: 39px;
+}
+
+.frame .icon-4 {
+  top: 2128px;
+  left: 167px;
+  position: absolute;
+  width: 39px;
+  height: 39px;
+}
